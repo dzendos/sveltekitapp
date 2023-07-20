@@ -2,7 +2,14 @@
 	import Footer from './Footer.svelte';
 	import Header from './Header.svelte';
 	import './styles.css';
+	import phone from '$lib/images/favicon.png'
 </script>
+
+<svelte:head>
+	<link rel="icon" type="image/x-icon" href={phone}>
+	<meta name="author" content="Evgeny Gerasimov">
+	<meta name="description" content="It's my website">
+</svelte:head>
 
 <div class="app">
 	<Header />
@@ -33,6 +40,4 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
-
-
 </style>

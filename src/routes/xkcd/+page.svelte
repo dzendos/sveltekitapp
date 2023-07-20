@@ -51,6 +51,10 @@
       image_date_ago.textContent = timeAgo;
     });
   </script>
+
+  <head>
+    <title>XKCD</title>
+  </head>
   
   <main>
     <div class="content">
